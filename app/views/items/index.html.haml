@@ -1,0 +1,140 @@
+= render "header"
+.contents
+  .row
+    .left-bar
+      %h1.where-snack
+        Shop Name 
+      .list
+        = link_to "#" do
+          .list__category
+            Category1
+        = link_to "#" do
+          .list__category
+            Category2
+        = link_to "#" do
+          .list__category
+            Category3
+      .posts
+        .post
+          %h3.post__comment
+            お菓子がどこにあったかみんなと共有しよう！
+          .post-exhibit
+            = link_to "#" do
+              .exhibit
+                %p.exhibit--text 投稿する
+                = image_tag "logo/icon_camera.png",class: 'exhibit--image', width: "55px";
+    .right-bar
+      .main-image
+        .carousel-inner
+          .carousel-item
+            = image_tag "logo/potato.jpg", class: "block", id: "block1", width: "300px";
+            = image_tag "logo/choco.jpg", class: "block", id: "block2", width: "300px";
+            = image_tag "logo/marble.jpg", class: "block", id: "block3", width: "300px";
+      .carousel-control
+        .carousel-control__prev
+          = link_to "#" do
+            .carousel-control__prev__icon
+            .sr-only
+              Previous
+        .carousel-control__next
+          = link_to "#" do
+            .carousel-control__next__icon
+            .sr-only
+              Next
+      .sub-image
+        .sub-image__upper
+          .sub-image__upper__contents
+            .sub-image__upper__contents__content
+              = link_to "#" do
+                = image_tag  "http://placehold.it/700x400", class: "content-image" 
+              .content-card
+                %h4.content-card__title
+                  = link_to "#" do
+                    Item One
+                %h5.content-card__shop
+                  〜〜〜○○店
+                %p.content-card__text
+                  この商品はここに売ってました！
+              .area
+                .area__content
+                  岐阜県
+          .sub-image__upper__contents
+            .sub-image__upper__contents__content
+              = link_to "#" do
+                = image_tag  "http://placehold.it/700x400", class: "content-image" 
+              .content-card
+                %h4.content-card__title
+                  = link_to "#" do
+                    Item One
+                %h5.content-card__shop
+                  〜〜〜○○店
+                %p.content-card__text
+                  この商品はここに売ってました！
+              .area
+                .area__content
+                  岐阜県
+
+          .sub-image__upper__contents
+            .sub-image__upper__contents__content
+              = link_to "#" do
+                = image_tag  "http://placehold.it/700x400", class: "content-image" 
+              .content-card
+                %h4.content-card__title
+                  = link_to "#" do
+                    Item One
+                %h5.content-card__shop
+                  〜〜〜○○店
+                %p.content-card__text
+                  この商品はここに売ってました！
+              .area
+                .area__content
+                  岐阜県
+        .sub-image__beneath
+          .sub-image__beneath__contents
+            .sub-image__beneath__contents__content
+              = link_to "#" do
+                = image_tag  "http://placehold.it/700x400", class: "content-image" 
+              .content-card
+                %h4.content-card__title
+                  = link_to "#" do
+                    Item One
+                %h5.content-card__shop
+                  〜〜〜○○店
+                %p.content-card__text
+                  この商品はここに売ってました！
+              .area
+                .area__content
+                  岐阜県
+
+          .sub-image__beneath__contents
+            .sub-image__beneath__contents__content
+              = link_to "#" do
+                = image_tag  "http://placehold.it/700x400", class: "content-image" 
+              .content-card
+                %h4.content-card__title
+                  = link_to "#" do
+                    Item One
+                %h5.content-card__shop
+                  〜〜〜○○店
+                %p.content-card__text
+                  この商品はここに売ってました！
+              .area
+                .area__content
+                  岐阜県
+
+          .sub-image__beneath__contents
+            .sub-image__beneath__contents__content
+              = link_to "#" do
+                = image_tag  "http://placehold.it/700x400", class: "content-image" 
+              .content-card
+                %h4.content-card__title
+                  = link_to "#" do
+                    Item One
+                %h5.content-card__shop
+                  〜〜〜○○店
+                %p.content-card__text
+                  この商品はここに売ってました！
+              .area
+                .area__content
+                  岐阜県
+= render "footer"
